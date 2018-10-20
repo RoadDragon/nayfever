@@ -19,6 +19,10 @@ h6 {
   font-weight: 400;
 }
 
+#title {
+    font-family: 'Chewy', sans-serif;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
