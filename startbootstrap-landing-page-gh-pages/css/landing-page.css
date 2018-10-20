@@ -19,18 +19,43 @@ h6 {
   font-weight: 400;
 }
 
+@keyframes changeColor {
+  0% { 
+    background-color: #ffcdb2;
+  } 
+  20% { 
+    background-color: #ffb4a2; 
+  } 
+   40% { 
+    background-color: #e5989b; 
+  } 
+   60% { 
+    background-color: #b5838d; 
+  } 
+   80% { 
+    background-color: #6d6875; 
+  } 
+  100% { 
+    background-color: #e5989b; 
+    
+  }
+}
+
+
+
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  animation: changeColor 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
   height: 100%;
   width: 100%;
   top: 0;
