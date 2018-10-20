@@ -41,6 +41,9 @@ h6 {
   }
 }
 
+#title {
+    font-family: 'Chewy', sans-serif;
+}
 
 
 header.masthead {
@@ -168,3 +171,6 @@ button:hover {
   background-color: #ef7878 !important;
 }
 
+#filter:active {
+    background-color: #FFFFFF !important;
+}
