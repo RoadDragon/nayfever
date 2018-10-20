@@ -66,7 +66,7 @@ header.masthead h1 {
     padding: 7rem;
   }
 }
-
+/*
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -86,6 +86,13 @@ header.masthead h1 {
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
+}
+*/
+.three-image-width {
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .testimonials {
@@ -126,3 +133,13 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+button {
+  background-color: #EB5757 !important;
+  border: none !important;
+}
+
+button:hover {
+  background-color: #ef7878 !important;
+}
+
