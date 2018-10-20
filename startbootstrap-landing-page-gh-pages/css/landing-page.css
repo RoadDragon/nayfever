@@ -5,7 +5,8 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300,300i,400,700;
 }
 
 h1,
@@ -14,8 +15,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Chewy', cursive;
+  font-weight: 400;
 }
 
 header.masthead {
