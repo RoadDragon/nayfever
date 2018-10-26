@@ -1,0 +1,26 @@
+{
+  "name": "nayfever",
+  "version": "1.0.0",
+  "description": "A website to help people with alleriges/diet restrictions to navigate restaurants in NYC",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoadDragon/nayfever.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoadDragon/nayfever/issues"
+  },
+  "homepage": "https://github.com/RoadDragon/nayfever#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
